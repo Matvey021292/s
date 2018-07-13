@@ -1,0 +1,175 @@
+
+
+.terms-overlay{
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.86);
+	z-index:9998;
+	position: fixed;
+	display: none;
+}
+.terms{
+	background:#fff;
+	width:calc(90% - 30px);
+	max-width:1030px;
+	height:60vh;
+	z-index:9999;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	box-sizing:content-box!important;
+	padding:60px;
+	position: fixed;
+}
+.terms__title{
+	font-size:42px;
+	color:#062748;
+	text-transform:uppercase;
+	font-weight:900;
+	margin:0 0 30px
+}
+.terms__text{
+	font-family:Raleway-Regular,sans-serif;
+	color:#4c4c4c;
+	font-size:16px;
+	height:53vh;
+	overflow-y:scroll
+}
+.terms__subtitle{
+	font-family:Raleway-Black,sans-serif;
+	font-size:19px;
+	display:block
+}
+.terms__close{
+	position:absolute;
+	top:20px;
+	right:20px
+}
+.risks__btn{
+	border-radius:100px;
+	border:none;
+	font-size:17px;
+	background-color:#dd135d;
+	padding:11px 0;
+	max-width:320px;
+	display:block;
+	width:100%;
+	-webkit-transition:.2s ease-out;
+	transition:.2s ease-out;
+	margin:0 auto 60px;
+	color:#fff;
+	text-transform:uppercase;
+	position:relative;
+	z-index:99
+}
+.risks__btn:active{
+	transform:scale(.9);
+	transition:.2s ease-out
+}
+@media (max-width:1250px){
+	.img-circle-back{
+		opacity:.3
+	}
+	.risks{
+		margin-top:70px
+	}
+	.terms__title{
+		font-size:36px
+	}
+	.terms__text{
+		font-size:15px
+	}
+}
+@media (max-width:991px){
+	.risks{
+		margin-top:310px
+	}
+	.terms{
+		padding:50px
+	}
+	.terms__title{
+		font-size:34px
+	}
+	.terms__text{
+		font-size:14px
+	}
+	.terms__close{
+		width:22px
+	}
+}
+@media (max-width:767px){
+	.section_main_blue{
+		padding-top:50px
+	}
+	.risks{
+		margin-top:120px
+	}
+	.terms{
+		padding:40px
+	}
+	.terms__title{
+		font-size:30px;
+		margin-bottom:20px
+	}
+	.terms__text{
+		font-size:13px;
+	}
+	.terms__close{
+		width:20px
+	}
+}
+@media (max-width:640px){
+	.risks{
+		margin:20px auto 0;
+		font-size:11px
+	}
+	.terms{
+		padding:30px
+	}
+	.terms__title{
+		font-size:25px
+	}
+	.terms__close{
+		top:10px;
+		right:10px;
+		width:18px
+	}
+}
+@media (max-width:480px){
+	.risks__link,.risks__policy{
+		line-height:20px
+	}
+	.main-text-container .p-main{
+		margin-bottom:30px
+	}
+	.risks{
+		margin-top:0;
+		padding-top:0
+	}
+	.terms{
+		padding:20px
+	}
+	.terms__title{
+		font-size:22px
+	}
+	.terms__text{
+		font-size:11px;
+	}
+}
+@media (max-width:410px){
+	.risks__btn{
+		width:84.5%
+	}
+}
+.alert-danger{
+	background: transparent;
+	text-align: center;
+	border: transparent;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+	-webkit-appearance: none;
+}
